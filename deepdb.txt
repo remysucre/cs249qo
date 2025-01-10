@@ -1,3 +1,15 @@
 1. Introduction
 
 - How does one train a cardinality estimator, and why is that method bad?
+
+2. Overview
+
+- How to read Figure 1
+
+3.1 SPNs
+
+- Example in Figure 2
+- How to train
+- How to inference
+
+
