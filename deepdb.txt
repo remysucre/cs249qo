@@ -1,0 +1,3 @@
+1. Introduction
+
+- How does one train a cardinality estimator, and why is that method bad?
