@@ -1,3 +1,6 @@
+<span style="color: red;"> Project proposal due **Jan 20** (soft deadline, email to Remy) </span>
+
+
 This is a graduate-level research-oriented course offered in Winter 2025.
 The course aims to introduce foundation knowledge and discuss recent advances
 in query optimization. Another goal of the course is to teach the students

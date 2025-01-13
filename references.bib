@@ -94,6 +94,24 @@
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
+@inproceedings{10.1145/2882903.2915235,
+author = {Li, Feifei and Wu, Bin and Yi, Ke and Zhao, Zhuoyue},
+title = {Wander Join: Online Aggregation via Random Walks},
+year = {2016},
+isbn = {9781450335317},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2882903.2915235},
+doi = {10.1145/2882903.2915235},
+abstract = {Joins are expensive, and online aggregation over joins was proposed to mitigate the cost, which offers users a nice and flexible tradeoff between query efficiency and accuracy in a continuous, online fashion. However, the state-of-the-art approach, in both internal and external memory, is based on ripple join, which is still very expensive and even needs unrealistic assumptions (e.g., tuples in a table are stored in random order). This paper proposes a new approach, the wander join algorithm, to the online aggregation problem by performing random walks over the underlying join graph. We also design an optimizer that chooses the optimal plan for conducting the random walks without having to collect any statistics a priori. Compared with ripple join, wander join is particularly efficient for equality joins involving multiple tables, but also supports θ-joins. Selection predicates and group-by clauses can be handled as well. Extensive experiments using the TPC-H benchmark have demonstrated the superior performance of wander join over ripple join. In particular, we have integrated and tested wander join in the latest version of PostgreSQL, demonstrating its practicality in a full-fledged database system.},
+booktitle = {Proceedings of the 2016 International Conference on Management of Data},
+pages = {615–629},
+numpages = {15},
+keywords = {random walks, online aggregation, joins},
+location = {San Francisco, California, USA},
+series = {SIGMOD '16}
+}
+
 @article{DBLP:journals/sigmod/BonifatiD0H0MMS23,
   author       = {Angela Bonifati and
                   Stefania Dumbrava and
