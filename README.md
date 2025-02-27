@@ -1,4 +1,4 @@
-<span style="color: red;"> Project proposal due **Jan 20** (soft deadline, email to Remy) </span>
+<span style="color: red;"> Final presentation/report due March 12 </span>
 
 
 This is a graduate-level research-oriented course offered in Winter 2025.
