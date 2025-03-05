@@ -136,26 +136,22 @@ series = {SIGMOD '16}
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{DBLP:journals/tods/TrummerWWMMJAR21,
-  author       = {Immanuel Trummer and
-                  Junxiong Wang and
-                  Ziyun Wei and
-                  Deepak Maram and
-                  Samuel Moseley and
-                  Saehan Jo and
-                  Joseph Antonakakis and
-                  Ankush Rayabhari},
-  title        = {SkinnerDB: Regret-bounded Query Evaluation via Reinforcement Learning},
-  journal      = {{ACM} Trans. Database Syst.},
-  volume       = {46},
-  number       = {3},
-  pages        = {9:1--9:45},
-  year         = {2021},
-  url          = {https://doi.org/10.1145/3464389},
-  doi          = {10.1145/3464389},
-  timestamp    = {Wed, 07 Dec 2022 23:05:07 +0100},
-  biburl       = {https://dblp.org/rec/journals/tods/TrummerWWMMJAR21.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+@inproceedings{10.1145/3299869.3300088,
+author = {Trummer, Immanuel and Wang, Junxiong and Maram, Deepak and Moseley, Samuel and Jo, Saehan and Antonakakis, Joseph},
+title = {SkinnerDB: Regret-Bounded Query Evaluation via Reinforcement Learning},
+year = {2019},
+isbn = {9781450356435},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3299869.3300088},
+doi = {10.1145/3299869.3300088},
+abstract = {SkinnerDB is designed from the ground up for reliable join ordering. It maintains no data statistics and uses no cost or cardinality models. Instead, it uses reinforcement learning to learn optimal join orders on the fly, during the execution of the current query. To that purpose, we divide the execution of a query into many small time slices. Different join orders are tried in different time slices. We merge result tuples generated according to different join orders until a complete result is obtained. By measuring execution progress per time slice, we identify promising join orders as execution proceeds. Along with SkinnerDB, we introduce a new quality criterion for query execution strategies. We compare expected execution cost against execution cost for an optimal join order. SkinnerDB features multiple execution strategies that are optimized for that criterion. Some of them can be executed on top of existing database systems. For maximal performance, we introduce a customized execution engine, facilitating fast join order switching via specialized multi-way join algorithms and tuple representations. We experimentally compare SkinnerDB's performance against various baselines, including MonetDB, Postgres, and adaptive processing methods. We consider various benchmarks, including the join order benchmark and TPC-H variants with user-defined functions. Overall, the overheads of reliable join ordering are negligible compared to the performance impact of the occasional, catastrophic join order choice.},
+booktitle = {Proceedings of the 2019 International Conference on Management of Data},
+pages = {1153–1170},
+numpages = {18},
+keywords = {query optimization, regret-bounded query evaluation, reinforcement learning},
+location = {Amsterdam, Netherlands},
+series = {SIGMOD '19}
 }
 
 @article{DBLP:journals/siamcomp/TarjanY84,
